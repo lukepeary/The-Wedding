@@ -1,0 +1,67 @@
+
+.top-bar-section .left {
+	width: 100%;
+}
+
+.top-bar-section ul {
+	background: #FFF;
+	li {
+		text-transform: uppercase;
+		width: 25%;
+		color: #000;
+		background: #FFF;
+		font-size: 1.5em;
+	}
+	li:last-child {
+		text-align: right;
+	}
+	li:nth-child(2),li:nth-child(3) {
+		text-align: center;
+	}
+}
+
+.top-bar-section ul li.active > a, .top-bar-section ul li > a, .top-bar-section li a:not(.button) {
+	background: #FFF;
+	color: #000;
+	&:hover {
+		background: #FFF;
+		color: #000;
+		text-decoration: underline;
+	}
+}
+
+.sub-nav-items .gallery {
+
+}
+
+.sub-nav-items {
+	.panel {
+		position: relative;
+	}
+	.accom:hover {
+		&:after {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			content: "Accomodation";
+			padding-top: 38%;
+			font-size: 1.3em;
+			text-align: center;
+			color: #333;
+			background: #CCC;
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+			filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+			opacity: .8
+		}
+	}
+	img {
+		width: 100%;
+		overflow: hidden;
+	}
+}
+
+.sub-nav-items .rsvp {
+	
+}

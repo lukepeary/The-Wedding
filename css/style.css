@@ -1,0 +1,75 @@
+/*
+    Theme Name: The Wedding
+    Theme URI: http://www.thepearys.com
+    Description: A wordpress theme for our wedding
+    Version: 0.0
+    Author: Luke Peary
+    Author URI: http://www.lukepeary.com
+*/
+@font-face {
+  font-family: 'archivo';
+  src: url("../fonts/archivo/archivo.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/archivo/archivo.eot?#iefix") format("embedded-opentype"), url("../fonts/archivo/archivo.woff") format("woff"), url("../fonts/archivo/archivo.ttf") format("truetype");
+  /* Safari, Android, iOS */ }
+
+h1 {
+  font-family: 'archivo',monospace;
+  text-transform: uppercase;
+  font-size: 7.1em; }
+
+.top-bar-section .left {
+  width: 100%; }
+
+.top-bar-section ul {
+  background: #FFF; }
+  .top-bar-section ul li {
+    text-transform: uppercase;
+    width: 25%;
+    color: #000;
+    background: #FFF;
+    font-size: 1.5em; }
+  .top-bar-section ul li:last-child {
+    text-align: right; }
+  .top-bar-section ul li:nth-child(2), .top-bar-section ul li:nth-child(3) {
+    text-align: center; }
+
+.top-bar-section ul li.active > a, .top-bar-section ul li > a, .top-bar-section li a:not(.button) {
+  background: #FFF;
+  color: #000; }
+  .top-bar-section ul li.active > a:hover, .top-bar-section ul li > a:hover, .top-bar-section li a:not(.button):hover {
+    background: #FFF;
+    color: #000;
+    text-decoration: underline; }
+
+.sub-nav-items .panel {
+  position: relative; }
+.sub-nav-items .accom:hover:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "Accomodation";
+  padding-top: 38%;
+  font-size: 1.3em;
+  text-align: center;
+  color: #333;
+  background: #CCC;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8; }
+.sub-nav-items img {
+  width: 100%;
+  overflow: hidden; }
+
+.orbit-slide-number {
+  display: none; }
+
+.orbit-caption {
+  display: none; }
+
+.orbit-bullets {
+  margin-left: 50%;
+  position: relative;
+  top: -26px; }
